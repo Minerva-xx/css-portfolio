@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100;
+    background: url(./img/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 150px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 100px;
+    cursor: pointer;
+    margin-top: -20%;
+    margin-left: -7%;
+}
+
+ul {
+    margin-top: -20%;
+    margin-right: 10%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: light;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(61, 12, 12);
+    margin-top: 10%;
+    transition: .2s ease;
+}
+
+ul li a:hover{
+    color: rgb(245, 13, 13);
+    text-decoration: overline;
+}
+
+.index-info{
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.index-info h1{
+    font-size: 50px;
+    color: rgb(61, 12, 12);
+}
+
+.index-info h3{
+    margin-left: 30%;
+    margin-top: 0.025%;
+}
+
+.index-info p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.index-info a{
+    text-decoration: none;
+    color:rgb(112, 101, 101);
+    background: rgba(180, 167, 147, 0.594);
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display:inline-block;
+    transition: all 1s ease;
+}
+
+.index-info a:hover{
+    background: rgba(202, 134, 134, 0.847);
+}
+
+
+.index-image{
+    width:30%;
+    height: 60%;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+
+.index-image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 1s ease;
+}
+
+.index-image:hover .girl{
+    left: 45%;
+}
+
+.index-linkedin img{
+    width:3%;
+    height: 3%;
+    position:relative;
+    left: 100px;
+    bottom: 15px;
+}
+
+.index-linkedin img:hover{
+    background: rgba(202, 134, 134, 0.847);
+}
+
+.index-github img{
+    width:3%;
+    height: 3%;
+    position:relative;
+    left: 160px;
+    bottom: 55px;
+}
+
+.index-github img:hover{
+    background: rgba(202, 134, 134, 0.847);
+}
+
+.box{
+    border: 2px solid rgb(61, 12, 12);
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    border-radius: 50px / 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 1%;
+    position:absolute;
+    top: 17%;
+
+}
+
+.box p{
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+} 
+
+.about-image{
+    width:30%;
+    height: 57%;
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+}
+
+.about-image img{
+    position: absolute;
+    height: 150%;
+    left: 13%;
+    bottom: 0;
+    top: -60%;
+
+}
+
+.project-image img{
+    width:50%;
+    height: 80%;
+    position:fixed;
+    right: 30px;
+    left: 280px;
+    bottom: 0px;
+    top: 80px;
+}
+
+.container{
+    width: 80%;
+    margin: 5px auto;
+    margin-top:-220px
+    
+}
+
+.contact-box{
+    display: flex;
+    background: rgba(112, 32, 32, 0.607);
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 35%;
+    padding: 40px;
+    background: #b5b0b7;
+    color:rgb(16, 14, 14);
+    font-weight: 200;
+}
+
+.contact-left h3{
+    color: black;
+    font-weight:600;
+    margin-bottom:30px;
+ }
+
+.contact h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border:1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color:rgba(112, 32, 32, 0.607);
+    width:100px;
+    border:none;
+    outline:none;
+    color:#f9f3f3;
+    height:35px;
+    margin-top: 20px;
+}
+
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+
+footer{
+    background-color: rgba(61, 12, 12, 0.703);
+    color: snow;
+    text-align: center;
+    padding: 0.00001rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
